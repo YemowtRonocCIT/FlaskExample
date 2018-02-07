@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>JavaScript Input Response</title>
+    </head>
+
+    <body>
+        <h1>Hello, how are you?</h1>
+        
+        <input type="text" id="response" name="how"></input>
+        <button onClick="respond()">Enter</button>
+
+        <p id="output"></p>
+    </body>
+</html>
+
+<script src="{{ url_for('static', filename='response.js') }}"></script>
